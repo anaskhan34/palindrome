@@ -97,5 +97,27 @@ button{
     padding: 3px 6px;
     font-size: 1.1rem;
     font-weight: 500;
+}
 
+/* Responsive styles */
+@media (max-width: 600px) {
+    section {
+        width: 95vw;
+        height: auto;
+        padding: 1.5rem 0.5rem;
+    }
+    input, button, .checkValue {
+        font-size: 0.9rem;
+        padding: 2px 6px;
+    }
+    #head {
+        font-size: 1rem;
+        margin-bottom: 12px;
+        }
+        h1 {
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 16px;
+        }
+    }
 }
